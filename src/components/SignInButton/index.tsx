@@ -9,7 +9,7 @@ export function SignInButton() {
   return isLogged ? (
     <button type="button" className={styles.signInButton}>
       <FaGithub color="#84d361" />
-      Sign In with Github
+      Sabrina Vieira
       <FiX color="#737380" className={styles.closeIcon}/>
     </button>
   ) : (

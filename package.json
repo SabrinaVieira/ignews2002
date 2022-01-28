@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fauna": "^0.4.1",
+    "faunadb": "^4.4.1",
     "next": "12.0.7",
     "next-auth": "^4.1.2",
     "react": "17.0.2",

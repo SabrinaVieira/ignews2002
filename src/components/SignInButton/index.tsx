@@ -12,7 +12,7 @@ console.log({session})
   return session ? (
     <button type="button" className={styles.signInButton} onClick={()=> signOut()}>
       <FaGithub color="#84d361" />
-      Sabrina Vieira
+      {session.user.name}
       <FiX color="#737380" className={styles.closeIcon}/>
     </button>
   ) : (
